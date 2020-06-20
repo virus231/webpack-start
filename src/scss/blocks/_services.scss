@@ -25,7 +25,8 @@
 
 		&:hover {
 			cursor: pointer;
-			box-shadow: 0px 15px 22px 0px rgba(250, 170, 76, 0.3)
+			box-shadow: 0px 15px 22px 0px rgba(250, 170, 76, 0.3);
+			transform: translateY(-20px);
 		}
 	}
 
@@ -42,6 +43,10 @@
 }
 
 .card-body {
+	// transition: all .33s;
+	&:hover {
+	}
+
 	&__title {
 		font-family: Muli;
 		font-style: normal;

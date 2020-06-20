@@ -8,7 +8,7 @@
 	transition: all .33s;
 	display: inline-block;
     text-align: center;
-    line-height: 1em;
+    line-height: 3em;
     vertical-align: middle;
 }
 
@@ -17,23 +17,24 @@
 	padding: 0 !important;
 	&:hover {
 		color: white;
+		border-bottom: 3px solid red;
 	}
 
 
-	&:after {
-	    border-bottom: 3px solid #DD4242;
-	    content: "";
-	    display: block;
-	    margin: 0.50em auto 0;
-	    transition: width 330ms ease-in-out 0s;
-	    width: 0;
-	}
+	// &:after {
+	//     border-bottom: 3px solid #DD4242;
+	//     content: "";
+	//     display: block;
+	//     margin: 0.50em auto 0;
+	//     transition: width 330ms ease-in-out 0s;
+	//     width: 0;
+	// }
 
 
-	&:hover:after {
-		transition: width 150ms ease-in-out 0s;
-    	width: 100%;
-	}
+	// &:hover:after {
+	// 	transition: width 150ms ease-in-out 0s;
+ //    	width: 100%;
+	// }
 
 }
 
